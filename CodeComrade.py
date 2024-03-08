@@ -14,11 +14,16 @@ async def on_ready():
 client.run("MTIxNTU1Nzg0NDI2MzIzOTY4MA.Gf1ibY.-g0kMh3LswifiT72rfWBqTXWnB3a1TMrCamOSU")
 
 
-
+@client.event
 async def on_message(message):
-    if message.author == client.user:
-        return
+    if 'happy birthday' in message.content.lower():
+        await message.channel.send('Happy Birthday! 🎈🎉')
+
+        
+#async def on_message(message):
+ #   if message.author == client.user:
+   #     return
     
-    if message.content == "neger":
-        await message.channel.send == "sida"
+ #   if message.content == "neger":
+  #      await message.channel.send == "sida"
     
