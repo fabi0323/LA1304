@@ -1,6 +1,5 @@
 import discord as dc
 import os
-
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -13,8 +12,6 @@ async def on_ready():
     print(f'{client.user} has connected to Discord!')
 
 client.run(TOKEN)
-
-
 
 
 
