@@ -14,7 +14,7 @@ Fabian Meyer und Justus Meister
 
 Discord Bot in Python
 
-Idee: Manual zu programmierfunktionen, ähnlich zu "man" command in linux (Parrot, debian based), evt. mit free ai framework
+Idee: Manual zu programmierfunktionen, ähnlich zu "man" command in linux (Parrot, debian based), infos aus Database.
 
 ### 1.2 User Stories
 
