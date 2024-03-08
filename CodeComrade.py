@@ -1,10 +1,6 @@
 import discord as dc
 from discord.ext import commands
-import os
-from dotenv import load_dotenv
 
-load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
 
 intents = dc.Intents.default()
 intents.messages = True  # Enable message intents
@@ -15,7 +11,7 @@ client = commands.Bot(command_prefix='.', intents=intents)
 async def on_ready():
     print(f'{client.user} has connected to Discord!')
 
-client.run(TOKEN)
+client.run("MTIxNTU1Nzg0NDI2MzIzOTY4MA.Gf1ibY.-g0kMh3LswifiT72rfWBqTXWnB3a1TMrCamOSU")
 
 
 
@@ -24,5 +20,5 @@ async def on_message(message):
         return
     
     if message.content == "neger":
-        message.channel.send == "sida"
+        await message.channel.send == "sida"
     
