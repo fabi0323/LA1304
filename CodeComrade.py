@@ -11,19 +11,14 @@ client = commands.Bot(command_prefix='.', intents=intents)
 async def on_ready():
     print(f'{client.user} has connected to Discord!')
 
-client.run("MTIxNTU1Nzg0NDI2MzIzOTY4MA.Gf1ibY.-g0kMh3LswifiT72rfWBqTXWnB3a1TMrCamOSU")
 
 
-@client.event
+@client.event        
 async def on_message(message):
-    if 'happy birthday' in message.content.lower():
-        await message.channel.send('Happy Birthday! 🎈🎉')
-
-        
-#async def on_message(message):
- #   if message.author == client.user:
-   #     return
+    if message.author == client.user:
+        return
     
- #   if message.content == "neger":
-  #      await message.channel.send == "sida"
+    if message.content == "neger":
+        await message.channel.send == "sida"
     
+client.run("MTIxNTU1Nzg0NDI2MzIzOTY4MA.Gf1ibY.-g0kMh3LswifiT72rfWBqTXWnB3a1TMrCamOSU")
