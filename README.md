@@ -1,6 +1,6 @@
 # Projekt-Dokumentation 1304
 
-Fabian Meyer und Justus Meister
+Fabian Meyer, Justus Meister
 
 | Datum | Version | Zusammenfassung                                                                                                                             |
 | ----- | ------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -12,18 +12,20 @@ Fabian Meyer und Justus Meister
 
 ### 1.1 Ihr Projekt
 
-Discord Bot in Python
+Der CodingComrad ist ein Discord-Bot, welcher ihnen mit Hilfe von KI Technologie Informationen über verschiedene coding bezogene Themen bereitstellen kann.
 
-Idee: Manual zu programmierfunktionen, ähnlich zu "man" command in linux (Parrot, debian based), infos aus Database.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ | Beschreibung                       |
 | ---- | --------------- | --- | ---------------------------------- |
-| 1    |                 |     | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
+| 1    |    muss             |   funktional  | Als User möchte ich den Discord-Bot zu einem Server hinzufügen können. |
+| 2  |       muss          |  funktional   |   Als User möchte ich den Bot einem gewissen Text-Kanal zuweisen können (sodass der Bot nur in diesem Channel aktiv ist), damit die anderen Kanäle nicht "missbraucht" werden.              |
+| 3  |      muss           |  funktional   |     Als User möchte ich in einem Kanal Commands, welche mit dem Statement "." eingeleitet werden, ausführen, um den Bot zu gebrauchen.               |
+| 4  |      muss           |  funktional   |   Als User möchte ich vom Bot Informationen über verschiedene coding-relevante Topics erhalten können.                                |
+| ...  |                 |     |                                    |
 | ...  |                 |     |                                    |
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: _Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️_.
 
 ### 1.3 Testfälle
 
