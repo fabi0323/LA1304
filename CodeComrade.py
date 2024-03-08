@@ -19,6 +19,6 @@ async def on_message(message):
         return
     
     if message.content == "neger":
-        await message.channel.send == "sida"
+        await message.channel.send("sida")
     
 client.run("MTIxNTU1Nzg0NDI2MzIzOTY4MA.Gf1ibY.-g0kMh3LswifiT72rfWBqTXWnB3a1TMrCamOSU")
